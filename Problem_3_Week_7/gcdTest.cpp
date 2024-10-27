@@ -13,8 +13,6 @@ int main() {
     // Calculate GCD
     long long resultGCD = gcd(n1, n2);
     
-    // Output the test case results
-    cout << "Testing G.C.D of " << n1 << " & " << n2 << " is: " << resultGCD << endl; 
 
     // Check if the test passed or failed
     if (resultGCD == expectedGCD) {
@@ -23,7 +21,7 @@ int main() {
         cout << "Test failed!" << endl; // Output if the result is incorrect (not the same as expected output)
     }
 
-    return 0; // End of program
+    return 0; 
 }
 
 // Recursive function to calculate GCD of two numbers

@@ -6,7 +6,7 @@ long long factorial(long long x);
 
 int main() {
     long long x;
-    cout << "Enter an integer number: ";
+    cout << "Enter an integer number (Maximum is 20): ";
     cin >> x;
     cout << "Factorial of " << x << " = " << factorial(x) << endl;
     return 0;

@@ -11,14 +11,15 @@ int main() {
     long long result = factorial(testValue);
 
     if (result == expectedValue) {
-        cout << "Test passed!" << endl; 
+        cout << "Test passed!" << endl; // Output if the result is correct (the same as expected output)
     } else {
-        cout << "Test failed!" << endl;
+        cout << "Test failed!" << endl; // Output if the result is incorrect (not the same as expected output)
     }
 
-    return 0;
+    return 0; 
 }
 
+// Recursive function to calculate factorial
 long long factorial(long long x) {
     if (x > 1) {
         return x * factorial(x - 1); // Recursive call

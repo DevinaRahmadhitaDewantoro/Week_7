@@ -2,17 +2,17 @@
 using namespace std;
 
 // Function to perform addition
-long double add(long double a, long double b) {
+long long add(long long a, long long b) {
     return a + b;
 }
 
 // Function to perform subtraction
-long double subtract(long double a, long double b) {
+long long subtract(long long a, long long b) {
     return a - b;
 }
 
 int main() {
-    long double num1, num2;
+    long long num1, num2;
     int choice;
     
     cout << "Enter two numbers: ";
