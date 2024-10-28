@@ -15,7 +15,7 @@ int main() {
     long long num1, num2;
     int choice;
     
-    cout << "Enter two numbers: ";
+    cout << "Enter two integer numbers: ";
     cin >> num1 >> num2;
     
     cout << "Choose an operation:\n";

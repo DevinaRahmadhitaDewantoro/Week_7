@@ -25,9 +25,9 @@ int main() {
 
     // Check if both tests passed
     if (additionTest && subtractionTest) {
-        cout << "Test passed" << endl;
+        cout << "Test passed!" << endl;
     } else {
-        cout << "Test failed" << endl;
+        cout << "Test failed!" << endl;
     }
 
     return 0;
